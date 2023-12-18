@@ -1,0 +1,187 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.first-section{
+    text-align: center;
+}
+.first-sectionmv{
+    text-align: center;
+}
+.headings{
+    margin-top: 4%;
+    color:  rgb(73, 2, 84);
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: 1;
+}
+.normaltext{
+    color: rgb(108, 108, 108);
+    margin-top: 2%;
+    line-height: 1.5;
+}
+.pink-container{
+    margin-top: 4%;
+margin-left: 4%;
+width:90%;
+padding-top: 4%;
+padding-bottom: 4%;
+background-color: hsla(283, 49%, 79%, 0.192);
+align-items: center;
+text-align: center;
+border: 1px solid   hsla(283, 49%, 79%, 0.192);
+border-radius: 0.5em;
+color: hsl(283, 51%, 37%);
+}
+.star-container{
+margin-bottom: 2%;
+}
+.section-pinkboxes{
+    display: block;
+    
+}
+.user-info{
+    display: flex;
+    margin-left: 2em;
+    padding-top: 2em;
+}
+.round-image{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    
+}
+.username{
+    color: white;  
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.user-descp{
+    color: rgb(150, 9, 150);
+}
+.purple-container{
+    background-color: rgb(73, 2, 84);
+    width: 90%;
+    margin-left: 4%;
+    border-radius:0.4em;
+    margin-top: 4%;
+}
+.thoughts{
+    color: white;
+    padding:9%;
+}
+.card-section{
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+.user-details{
+    margin-left: 2em;
+}
+
+.card-sectiondv{
+    display: flex;
+    margin-bottom: 6%;
+}
+.purple-containerdv{
+    background-color: rgb(73, 2, 84);
+    width: 30%;
+    height: 30%;
+    margin-left: 2.5%;
+    border-radius:0.4em;
+    margin-top: 4%;
+}
+.user-infodv{
+    display: flex;
+    margin-left: 2em;
+    padding-top: 1em;
+}
+.round-imagedv{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+.user-detailsdv{
+    margin-left: 2em;
+}
+.usernamedv{
+    color: white;  
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.user-descpdv{
+    color: rgb(150, 9, 150);
+}
+.thoughtsdv{
+    color: white;
+    padding:9%;
+}
+#seccard{
+margin-top: 6%;
+}
+#thirdcard{
+    margin-top: 8%;
+}
+.first-section{
+    width: 30%;
+    text-align: left;
+    margin-left: 4%;
+    
+}
+.section-pinkboxesdv{
+    display: inline-block;
+    width: 50%;
+    margin-left: 8%;
+}
+.pink-containerdv{
+    margin-top: 2%;
+    margin-left: 4%;
+    width:60%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: hsla(283, 49%, 79%, 0.192);
+    align-items: center;
+    text-align: center;
+    border: 1px solid   hsla(283, 49%, 79%, 0.192);
+    border-radius: 0.5em;
+    color: hsl(283, 51%, 37%);
+    display: flex;
+}
+.star-containerdv{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.section-firstdv{
+    display: flex;
+    margin-top: 5%;
+}
+#secpink{
+margin-left: 6em;
+}
+#thirdpink{
+    margin-left: 10em;
+}
+@media only screen and (max-width: 600px) and (min-width: 200px)  {
+#desktop-view{
+    display: none;
+}
+#mobile-view{
+    display: contents;
+}
+body{
+    background: url('./images/bg-pattern-top-mobile.svg'), url('./images/bg-pattern-bottom-mobile.svg');
+}
+}
+@media screen and (min-width: 601px){
+    #desktop-view{
+        display:contents ;
+    }
+    #mobile-view{
+        display: none;
+    }
+    body{
+        background: url('./images/bg-pattern-top-desktop.svg'),url('./images/bg-pattern-bottom-desktop.svg');
+    }
+}
