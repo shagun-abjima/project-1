@@ -35,3 +35,79 @@
 .navi:hover{
     background-color: #04AA6D;
 }
+.sec-container{
+    display: flex;
+}
+.sec-right{
+    width:66.4em ;
+    padding: 2%;
+    
+}
+.button-container{
+    padding-bottom: 2%;
+}
+.headings{
+    font-size: 3em;
+    font-weight:lighter;
+}
+.left-button{
+height: 3em;
+width: 8em;
+background-color: #4CAF50;
+border: 1px solid #4CAF50 ;
+border-radius: 0.2em;
+color: white;
+margin-top: 2%;
+}
+.left-button:hover{
+background-color: #04AA6D;
+}
+.right-button{
+    height: 3em;
+    width: 8em;
+    background-color: #4CAF50;
+    border: 1px solid #4CAF50;
+    border-radius: 0.2em;
+    color: white;
+    margin-left: 65%;
+    margin-top: 2%;
+}
+.right-button:hover{
+    background-color: #04AA6D;
+}
+.lightgreen-container{
+    background-color: #D9EEE1;
+    width: 95%;
+    height: 18rem;
+    margin-left: -1.5em;
+    line-height: 2.2;
+    padding-top: 4%;
+    padding-left: 2%;
+}
+.long-button-green{
+    height: 3em;
+    width: 18em;
+    background-color: #4CAF50;
+    border: 1px solid #4CAF50;
+    border-radius: 0.2em;
+    color: white;
+    margin-top: 1%;
+}
+.long-button-black{
+    height: 3em;
+    width: 14em;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 0.2em;
+    color: white;
+    margin-top: 1%;
+}
+.newspan{
+    background-color:#FFF4A3;
+    position:absolute;
+    margin-left: -2%;
+    transform: rotate(-30deg);
+    margin-top: -0.7em;
+    width: 3em;
+    color: black;
+}
