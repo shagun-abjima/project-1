@@ -3,39 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="./images/logo.png">
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <title>W3Schools clone</title>
 </head>
 <body>
-    <header>
-    <div id="navbar">
-        <img src="./images/logo.png" id="logo">
-        <a href="" class="navitems">Tutorial</a>
-        <a href="" class="navitems">Exercise</a>
-        <a href="" class="navitems">Certificates</a>
-        <a href="" class="navitems">Services</a>
+    <div class="container-content">
+        <div class="container-lights">
+            <div class="red" id="first"></div>
+            <div class="yellow" id="second"></div>
+            <div class="green" id="third"></div>
     </div>
-    <div id="nav">
-        <a href="" class="navi">HTML</a>
-        <a href="" class="navi">CSS</a>
-        <a href="" class="navi">JAVASCRIPT</a>
-        <a href="" class="navi">SQL</a>
-        <a href="" class="navi">PHP</a>
-        <a href="" class="navi">PYTHON</a>
-        <a href="" class="navi">JAVA</a>
-        <a href="" class="navi">HOW TO</a>
-        <a href="" class="navi">HTML</a>
-        <a href="" class="navi">CSS</a>
-        <a href="" class="navi">JAVASCRIPT</a>
-        <a href="" class="navi">SQL</a>
-        <a href="" class="navi">PHP</a>
-        <a href="" class="navi">SQL</a>
-        <a href="" class="navi">PHP</a>
+    <div class="button-container">
+        <h1>Hello,</h1>
+        <p>Click on the buttons to operate lights!</p>
+        <button id="first-button" class="buttons" onclick="displayred()">STOP</button>
+        <button id="second-button" class="buttons" >WAIT</button>
+        <button id="third-button" class="buttons">GO</button>
+       
+        
     </div>
-</header>
-<section>
-    <iframe src="./sidebar.html" height="700" width="200" title="Iframe Example"></iframe>
-</section>
+</div>
+
+<script src="./index.js"></script>
 </body>
 </html>
