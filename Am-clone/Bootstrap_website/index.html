@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website using bootstrap </title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body style="background-color: #E8E8E8;">
+   <!--Navbar-->
+   <nav class="navbar bg-dark border-bottom border-body navbar-expand-lg p-0" id="top" data-bs-theme="dark">
+   <!--Navbar-content-->
+   <div class="container-fluid">
+    <!--Navbar-collapse
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    -->
+      <!--Location-div
+      <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+      </li>
+    </ul>  -->
+
+    <div class="navbar-nav">
+
+      <div class="navbar-brand pt-4" ><img src="./Images/logo.png" class="logo-lg"><span class="sp"><small class="in">.in</small></span></div>
+    <!--Location part-->
+    <div class="nav-item location-part pt-2" >
+      <a class="nav-link active " aria-current="page" href="#">
+        <small class="d-block" style="color: gray;">Delivering to Jaipur 302004</small>
+        <span class="d-block" style="margin-top: -0.3rem;"><i class="fa-solid fa-location-dot"></i><strong> Update location</strong></span>
+      </a>
+    </div>
+    <!--Searchbar-->
+    <div class="nav-item pt-3" style="width:28em; " >
+      <form class="d-flex search-form bg-light search-form" role="search">
+        <!--All-->
+        <div class="nav-item dropdown pt-1 " style="background-color:#E8E8E8;justify-content: center;width: 12%;font-size: 0.8rem; padding: 1em;height: 3.1em;">
+          <a class="dropdown-toggle active " href="#" role="button" style="text-decoration: none; color: gray;" data-bs-toggle="dropdown" aria-expanded="false">
+            All
+          </a>
+          <ul class="dropdown-menu select">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+
+        <!--Input-->
+        <input class="form-control me-2 search-area bg-light border border-white" type="search" placeholder="Search" aria-label="Search">
+        <!--Button-->
+        <button class="btn btn-warning rounded-start-0 rounded-end-2" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </form>
+    </div>
+
+    
+ 
+
+
+
+
+    <!--dropdown-->
+    <div class="nav-item dropdown pt-4 ms-2">
+      <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+       <img src="./Images/flag.jpg" class="flag"> EN
+      </a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+      </ul>
+    </div>
+    <!--dropdown-->
+    <div class="nav-item dropdown ms-2">
+      <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <small>Hello,sign in</small><br>
+        <b>Accounts & lists</b>
+        
+      </a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+      </ul>
+    </div>
+    <!--Return-->
+    <div class="nav-item location-part ms-2" >
+      <a class="nav-link active" aria-current="page" href="#">
+        <small>Returns</small><br>
+        <strong>and Orders</strong>
+      </a>
+    </div>
+    <!--Cart-->
+    <div class="nav-item location-part d-flex pt-4 ms-2" >
+      <i class="fa-solid fa-cart-shopping" style="font-size: 2em;color: aliceblue;"></i>
+      <a class="nav-link active" aria-current="page" href="#"><strong>Cart</strong></a>
+    </div>
+
+
+  </div>
+
+
+
+
+
+   </div>
+   </nav>
+
+   <!--Slider-->
+   <div id="carouselExampleAutoplaying" class="carousel slide" style="position: relative;" data-bs-ride="carousel">
+    <div class="carousel-inner" style="position: relative;">
+      <div class="carousel-item active" style="position: relative;">
+        <img src="./Images/c-img1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" style="position: relative;">
+        <img src="./Images/c-img2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" style="position: relative;">
+        <img src="./Images/c-img3.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" style="position: relative;">
+        <img src="./Images/c-img4.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item"style="position: relative;">
+        <img src="./Images/c-img5.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+  <!--Static Cards-->
+  <!--Card1-->
+  <div class="s-cardscont" >
+    <h4><b>Up to 75% off | Headphones</b></h4>
+    <div style="height:8em;width: 40%; position: absolute;">
+    <img src="./Images/c1-img1.jpg" class="card-image">
+    <small>Upto 70% off | boAt</small>
+    </div>
+    <div style="height:8em;width: 40%;  margin-left: 50%; position: absolute;">
+      <img src="./Images/c1-img2.jpg" class="card-image">
+      <small>Upto 70% off | boult</small>
+    </div>
+    <div style="height:8em;width: 40%;  margin-top: 55%; position: absolute;">
+      <img src="./Images/c1-img3.jpg" class="card-image">
+      <small>Upto 70% off | Noise</small>
+    </div>
+    <div style="height:8em;width: 40%;  margin-left: 50%;margin-top: 55%;  position: absolute;">
+      <img src="./Images/c1-img4.jpg" class="card-image">
+      <small>Upto 70% off | Zeronics</small>
+    </div>
+    <a href="" style="position: absolute;margin-top: 107%;">See all Offers></a>
+  </div>
+  <!--Card2-->
+  <div class="s-cardscont" style="margin-left: 26%;">
+    <h4><b>Get the perfect screen size | TVs Starting ₹6,999</b></h4>
+    <div style="height:8em;width: 40%; position: absolute;">
+      <img src="./Images/c2-img1.jpg" class="card-image">
+      <small>Budget TVs | Up to 60% off</small>
+      </div>
+      <div style="height:8em;width: 40%;  margin-left: 50%; position: absolute;">
+        <img src="./Images/c2-img2.jpg" class="card-image">
+        <small>
+          4K TVs | Up to 24 months No Cost EMI</small>
+      </div>
+      <div style="height:8em;width: 40%;  margin-top: 48%; position: absolute;">
+        <img src="./Images/c2-img3.jpg" class="card-image">
+        <small>Big Screens | Free installation</small>
+      </div>
+      <div style="height:8em;width: 40%;  margin-left: 48%;margin-top: 50%;  position: absolute;">
+        <img src="./Images/c2-img4.jpg" class="card-image">
+        <small>
+          Ultra Premium TVs | Up to 50% off</small>
+      </div>
+      <a href="" style="position: absolute;margin-top: 97%;">See all Offers></a>
+  </div>
+  <!--Card3-->
+  <div class="s-cardscont" style="margin-left: 50%;">
+    <h4><b>Up to 60% off | Styles for men</b></h4>
+    <div style="height:8em;width: 40%; position: absolute;">
+      <img src="./Images/c3-img1.jpg" class="card-image">
+      <small>Clothing</small>
+      </div>
+      <div style="height:8em;width: 40%;  margin-left: 50%; position: absolute;">
+        <img src="./Images/c3-img2.jpg" class="card-image">
+        <small>Footwear</small>
+      </div>
+      <div style="height:8em;width: 40%;  margin-top: 55%; position: absolute;">
+        <img src="./Images/c3-img3.jpg" class="card-image">
+        <small>Watches</small>
+      </div>
+      <div style="height:8em;width: 40%;  margin-left: 50%;margin-top: 55%;  position: absolute;">
+        <img src="./Images/c3-img4.jpg" class="card-image">
+        <small>Bags and wallets</small>
+      </div>
+      <a href="" style="position: absolute;margin-top: 108%;">See all Offers></a>
+  </div>
+  <!--Card4-->
+  <div class="s-cardscont" style="margin-left: 74%;">
+    <h4><b>Appliances for your home | Up to 55% off</b></h4>
+    <div style="height:8em;width: 40%; position: absolute;">
+      <img src="./Images/c4-img-1.jpg" class="card-image">
+      <small>Air Conditioners</small>
+      </div>
+      <div style="height:8em;width: 40%;  margin-left: 50%; position: absolute;">
+        <img src="./Images/c4-img2.jpg" class="card-image">
+        <small>Referigators</small>
+      </div>
+      <div style="height:8em;width: 40%;  margin-top: 55%; position: absolute;">
+        <img src="./Images/c4-img3.jpg" class="card-image">
+        <small>Microwaves</small>
+      </div>
+      <div style="height:8em;width: 40%;  margin-left: 50%;margin-top: 55%;  position: absolute;">
+        <img src="./Images/c4-img4.jpg" class="card-image">
+        <small>Washing Machine</small>
+      </div>
+      <a href="" style="position: absolute;margin-top: 108%;">See all Offers></a>
+  </div>
+  <!--Card-background-->
+  <div style="height: 50vh;width: 100%;"></div>
+  
+  <!--Dynamic cards-->
+  <div class="dcard-container row row-cols-1 row-cols-md-4 g-1 ms-4 " id="cards-body">
+    
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div>a</div>
+  <!--Footer-->
+  <footer>
+    <div style="background-color: #004B91;width: 100%; text-align: center;">
+    <a href="#top" style="text-decoration: none;color: white;">Back to top</a>
+    </div>
+    <div class="d-flex footer p-5">
+      <!--First-col-->
+      <div class="container">
+        <h6 class="footer-heading">Get to Know Us</h6>
+        <a href="" class="d-block footer-links">About Us</a>
+        <a href="" class="d-block footer-links">Careers</a>
+        <a href="" class="d-block footer-links">Press Releases</a>
+        <a href="" class="d-block footer-links">Amazon Science</a>
+      </div>
+       <!--Second-col-->
+      <div class="container">
+        <h6 class="footer-heading">Connect with Us</h6>
+        <a href="" class="d-block footer-links">Facebook</a>
+        <a href="" class="d-block footer-links">Twitter</a>
+        <a href="" class="d-block footer-links">Instagram</a>
+      </div>
+       <!--Third-col-->
+      <div class="container">
+        <h6 class="footer-heading">Make Money with Us</h6>
+        <a href="" class="d-block footer-links">Sell on Amazon</a>
+        <a href="" class="d-block footer-links">Sell under Amazon Accelerator</a>
+        <a href="" class="d-block footer-links">Protect and Build Your Brand</a>
+        <a href="" class="d-block footer-links">Amazon Global Selling</a>
+        <a href="" class="d-block footer-links">Become an Affiliate</a>
+        <a href="" class="d-block footer-links">Fulfilment by Amazon</a>
+        <a href="" class="d-block footer-links">Advertise Your Products</a>
+        <a href="" class="d-block footer-links">Amazon Pay on Merchants</a>
+      </div>
+       <!--Fourth-col-->
+      <div class="container">
+        <h6 class="footer-heading">Let Us Help You</h6>
+        <a href="" class="d-block footer-links">COVID-19 and Amazon</a>
+        <a href="" class="d-block footer-links">Your Account</a>
+        <a href="" class="d-block footer-links">Returns Centre</a>
+        <a href="" class="d-block footer-links">100% Purchase Protection</a>
+        <a href="" class="d-block footer-links">Amazon App Download</a>
+        <a href="" class="d-block footer-links">Help</a>
+      </div>
+    </div>
+  </footer>
+
+    <script src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>
