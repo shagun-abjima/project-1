@@ -1,0 +1,105 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.icon-button{
+    height: 2em;
+    width: 2em;
+    
+}
+.icons{
+ 
+}
+.logo-lg{
+    height: 1.5em;
+    width: 6em;
+}
+.sp{
+    bottom: 4em;
+}
+.in{
+    
+    font-size:1rem;
+    font-weight:480;
+}
+
+.select{
+height: 20em;
+overflow-y: scroll;
+}
+.search-area{
+    border: 1px aliceblue;
+    background-color: aliceblue;
+}
+.search-form{
+ width: 100%;
+ height: 2.5em;
+}
+.search-form{
+    border-radius: 4px;  
+}
+.flag{
+    height: 1.2em;
+    width: 1.5em;
+}
+.s-cardscont{
+    background-color: white;
+    height: 26em;
+    width: 18em;
+    margin-left: 2%;
+    position: absolute;
+    margin-top: -9em;
+    padding: 1em;
+
+}
+
+.card-image{
+    height: 70%;
+    width: 100%;
+}
+.footer{
+    bottom:0;
+    left:0;
+    width:100%;
+    height: 20em;
+    background-color:#232F3E;
+}
+.footer-heading{
+    color: white;
+}
+.footer-links{
+    text-decoration: none;
+    color:whitesmoke;
+}
+.dcard-container{
+    width: 98%;
+    height: auto;
+    padding-top: 2em;
+    
+    position: relative;
+   
+    
+}
+#addTocart{
+width: 100%;
+}
+.cards-image{
+    height:12em;
+    width:10em;
+    margin-left: 8%;
+}
+
+.dcard{
+    width: 17em; 
+}
+.desc{
+    width: 98%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+a{
+    text-decoration: none;
+}
